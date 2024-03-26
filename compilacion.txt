@@ -1,0 +1,6 @@
+//Donde: 
+// -shared: Indica a GCC que genere una biblioteca compartida en lugar de un ejecutable.
+// -o libhello.so: Especifica el nombre de salida de la biblioteca dinámica.
+// -fPIC: Indica a GCC que genere código independiente de posición (Position Independent Code), necesario para bibliotecas compartidas.
+
+gcc -shared -o libfunciones.so -fPIC funciones_varias.c
